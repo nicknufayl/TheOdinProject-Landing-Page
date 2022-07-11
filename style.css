@@ -96,4 +96,35 @@ h1 {
     width: 120px;
 }
 
+/* body */
 
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyInfo {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 3%;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.info img {
+    max-width: 150px;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.infoTitle {
+    font-weight: 1000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
