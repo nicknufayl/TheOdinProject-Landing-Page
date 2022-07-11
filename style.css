@@ -98,9 +98,12 @@ h1 {
 
 /* body */
 
+/* body info */
+
 .body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .bodyInfo {
@@ -128,3 +131,27 @@ h1 {
     margin-bottom: 30px;
     font-size: 20px;
 }
+
+/* body quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    padding: 2%;
+}
+
+.quote p {
+    max-width: 30%;
+    font-size: 23px;
+    text-align: left;
+    font-style: italic;
+}
+
+.quote h3 {
+    font-size: 15px;
+    margin-left: 350px;
+    font-weight: 800;
+}
+
